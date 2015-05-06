@@ -1,6 +1,6 @@
 # WSG Workshops App
 
-App created at WSG workshops meetings. This code base presents result app after second meeting 16.04.2015.
+App created at WSG workshops meetings. This code base presents result app after third meeting at 30.04.2015.
 
 ## Fork
 
@@ -13,8 +13,7 @@ No initial setup is required. Database is simple SQLite, no requirements.
 ### Initial setup
 ```
 bundle
-bundle exec rake db:create
-bundle exec rake db:migrate
+bundle exec rake db:setup
 ```
 
 ### Run the server
